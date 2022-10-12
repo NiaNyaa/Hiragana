@@ -1,8 +1,9 @@
+# Created by Ikhsan
 import random
 import time
 import os
 
-ekupi = open('//storage//CC4C-55EE//jpgame//exp.txt','r')
+ekupi = open('exp.txt','r')
 ekspo = ekupi.read()
 ekspi = int(ekspo)
 
@@ -232,11 +233,11 @@ def hgnk():
       break
 
 def exp(n):
-  file2 = open('//storage//CC4C-55EE//jpgame//exp.txt','r')
+  file2 = open('exp.txt','r')
   text2 = file2.read()
   a = int(text2)
   file2.close()
-  file = open('//storage//CC4C-55EE//jpgame//exp.txt','w')
+  file = open('exp.txt','w')
   text = a + n
   textint = str(text)
   file.write(textint)
@@ -267,6 +268,7 @@ elif ekspi > 5500:
   
   
 print("Exp =",ekspi)
+print("Latihan Hiragana")
 print("\n1. Mulai")
 inp = input("Pilihan: ")
 if inp == "1":
