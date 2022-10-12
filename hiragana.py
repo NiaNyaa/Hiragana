@@ -8,7 +8,7 @@ ekspo = ekupi.read()
 ekspi = int(ekspo)
 
 def hgnk():
-  os.system('clear')
+  os.system('clear') # Jika Pengguna CMD Ganti "cls"
   while True:
     a = "あいうえおはひふへほなにぬねのかきくけこさしすせそたちつてとまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ"
     print()
@@ -266,7 +266,7 @@ elif ekspi > 4100  and ekspi < 5500:
 elif ekspi > 5500:
   print("Level = 10 (Max)")  
   
-  
+os.system("clear") #Jika Pengguna CMD Ganti "cls"
 print("Exp =",ekspi)
 print("Latihan Hiragana")
 print("\n1. Mulai")
