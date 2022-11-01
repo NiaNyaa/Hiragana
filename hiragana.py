@@ -1,4 +1,4 @@
-# Created by Ikhsan
+# Latihan Hiragana
 import random
 import time
 import os
